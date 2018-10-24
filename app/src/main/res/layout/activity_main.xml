@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+      <TextView
+          android:id="@+id/textview"
+          android:text="ANDROID"
+          android:textSize="25sp"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_margin="10dp"
+          android:padding="10dp"
+          android:textAlignment="center"
+          android:textAllCaps="false"
+          android:textColor="#123456"
+          android:textStyle="bold|italic"
+          android:background="#c8d4e1"
+          android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+
+
+      <Button
+          android:id="@+id/button"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:text="Tutorial"
+          android:textAllCaps="false"
+          style="@style/Widget.AppCompat.Button.Borderless.Colored"/>
+
+    <Button
+        android:id="@+id/angry_btn"
+        android:text="ok"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:layout_width="173dp"
+        android:layout_height="60dp"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:layout_gravity="center"/>
+</LinearLayout>
